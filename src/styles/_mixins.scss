@@ -1,0 +1,17 @@
+@mixin onTablet {
+  @media screen and (min-width: 760px) {
+    @content;
+  }
+}
+
+@mixin onDesktop {
+  @media screen and (min-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin mediaCustom ($min-width) {
+  @media screen and (min-width: $min-width) {
+    @content;
+  }
+}

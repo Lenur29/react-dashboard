@@ -1,0 +1,81 @@
+@import '../../styles/mixins';
+
+.customers {
+  max-width: 968px;
+  background-color: #fff;
+  box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
+  border-radius: 30px;
+  padding: 20px 0;
+
+  @include onTablet {
+    padding: 30px 0 40px;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 40px;
+    padding: 0 15px 0;
+
+    @include onTablet {
+      padding: 0 40px 0 38px;
+    }
+
+    @include onTablet {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  &__common-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: -0.01em;
+    color: #000;
+    margin-bottom: 7px;
+  }
+
+  &__subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    color: #16c098;
+    margin-bottom: 10px;
+
+    @include onTablet {
+      margin-bottom: 0;
+    }
+  }
+
+  &__search {
+    width: 216px;
+    height: 38px;
+    background-color: #f9fbff;
+    border-radius: 10px;
+    padding-left: 40px;
+    background-image: url('../../assets//icons/search.svg');
+    background-repeat: no-repeat;
+    background-position: 8px center;
+    background-size: 24px;
+    border: none;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.01em;
+    color: #000;
+
+    @include onDesktop {
+      margin-right: 13px;
+    }
+  }
+}

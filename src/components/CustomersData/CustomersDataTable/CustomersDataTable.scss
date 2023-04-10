@@ -1,0 +1,74 @@
+@import '../../../styles/mixins';
+$custom-screen-size: 1350px;
+
+.table {
+  display: block;
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 0 15px;
+
+  @include onTablet {
+    padding: 0 40px 0 38px;
+  }
+
+  @include mediaCustom ($custom-screen-size) {
+    display: table;
+    border-spacing: 0;
+  }
+
+  &__header {
+    display: block;
+
+    @include mediaCustom ($custom-screen-size) {
+      display: table-header-group;
+      position: relative;
+
+      &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        left: -38px;
+        right: -40px;
+        height: 1px;
+        background-color: #eee;
+      }
+    }
+  }
+
+  &__header-row {
+    position: absolute;
+    top: -10000px;
+    left: -10000px;
+
+    @include mediaCustom ($custom-screen-size) {
+      position: static;
+    }
+  }
+
+  &__header-cell {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    color: #b5b7c0;
+    text-align: left;
+    padding: 0 0 14px 0;
+
+    @include mediaCustom ($custom-screen-size) {
+      display: table-cell;
+    }
+  }
+
+  &__header-cell:last-child {
+    text-align: center;
+  }
+
+  &__body {
+    display: block;
+
+    @include mediaCustom ($custom-screen-size) {
+      display: table-row-group;
+    }
+  }
+}

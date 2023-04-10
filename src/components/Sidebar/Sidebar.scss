@@ -1,0 +1,73 @@
+@import '../../styles/mixins';
+
+.menu {
+  padding: 20px 15px;
+  background-color: #fff;
+  margin-bottom: 54px;
+
+  &__panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__button {
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+  }
+
+  &__close-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+    width: 24px;
+    height: 24px;
+  }
+
+  &__icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 1;
+    padding: 28px 28px 76px;
+    transform: translateX(-100%);
+    transition: transform .3s ease-in-out;
+  }
+
+  &__content--active {
+    transform: translateX(0);
+  }
+
+  &__close-button {
+    width: 24px;
+    height: 24px;
+  }
+
+  @include onDesktop {
+    display: none;
+  }
+}
+
+.sidebar {
+  display: none;
+
+  @include onDesktop {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 37px 28px 76px;
+    gap: 54px;
+  }
+}

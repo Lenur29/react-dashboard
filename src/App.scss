@@ -1,0 +1,13 @@
+@import './styles/mixins';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  min-height: 100vh;
+  margin: auto;
+
+  @include onDesktop {
+    flex-direction: row;
+  }
+}
