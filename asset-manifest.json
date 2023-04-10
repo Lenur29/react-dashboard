@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-dashboard/static/css/main.9fc870b3.css",
+    "main.js": "/react-dashboard/static/js/main.48a4a004.js",
+    "static/media/promote.svg": "/react-dashboard/static/media/promote.50e7fa913b2df1fe9a92aa86f5b694f7.svg",
+    "static/media/income.svg": "/react-dashboard/static/media/income.98c54fc89dad3baa1a9554c00528c4ce.svg",
+    "static/media/product.svg": "/react-dashboard/static/media/product.10356868d70933387438b6eac9589e80.svg",
+    "static/media/help.svg": "/react-dashboard/static/media/help.aa539d592ec49e5bb7d9f7a4d2342da0.svg",
+    "static/media/customer.svg": "/react-dashboard/static/media/customer.f010daa1025e2baa2fd858de91bfab65.svg",
+    "static/media/logo.svg": "/react-dashboard/static/media/logo.6d9c866cac2f60d4354bf24ba75e73fb.svg",
+    "static/media/key.svg": "/react-dashboard/static/media/key.c1c7674095abd79eae05114a615000ad.svg",
+    "index.html": "/react-dashboard/index.html",
+    "static/media/search.svg": "/react-dashboard/static/media/search.69e4d23fa125d7a31df1.svg",
+    "static/media/close.svg": "/react-dashboard/static/media/close.fb2825f9e8077391ad92b48d22235266.svg",
+    "static/media/arrow-white.svg": "/react-dashboard/static/media/arrow-white.1d12f8b803fe4e798dfb69f09cca4c3d.svg",
+    "static/media/arrow.svg": "/react-dashboard/static/media/arrow.844072e87606383de5934aaa05a51b87.svg",
+    "static/media/arrow-dark.svg": "/react-dashboard/static/media/arrow-dark.6cc8e701f56a7dd22cfc5e51092cf5f0.svg",
+    "static/media/menu.svg": "/react-dashboard/static/media/menu.47e8797189cd2a85519070a9cd44edf8.svg",
+    "main.9fc870b3.css.map": "/react-dashboard/static/css/main.9fc870b3.css.map",
+    "main.48a4a004.js.map": "/react-dashboard/static/js/main.48a4a004.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9fc870b3.css",
+    "static/js/main.48a4a004.js"
+  ]
+}
